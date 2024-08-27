@@ -3,6 +3,7 @@
 banner:
   title: "Society of Physics Students @&nbsp;Berkeley"
   content: "SPS is the official voice of the physics student body, and a link between the physics department and the undergraduate community. It's also really fun!"
+  images: ["/images/banner.png", "/images/service-1.png", "/images/service-2.png"]
   image: "/images/banner.png"
   button:
     enable: false
@@ -52,4 +53,4 @@ features:
       link: ""
 ---
 
-md Test
+hi eric
