@@ -1,4 +1,6 @@
 ---
-title: "Socials"
+title: "Socials committee"
 ---
+
+We organize fun stuff!!!
 

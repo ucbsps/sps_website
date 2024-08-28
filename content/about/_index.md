@@ -1,9 +1,25 @@
 ---
-title: "Hey, I am John Doe!"
+title: "SPS is run by students like you!"
 meta_title: "About"
 description: "this is meta description"
-image: "/images/avatar.png"
+image: "/images/gallery/carnival1.jpg"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+Our committees are open to everyone to join.
+
+### Officers
+
+- Troy Tsubota & Michelle Dong, presidents
+- Rainer Reczek & Sanjit Shirol, VPs
+- Xing Liu, treasurer
+- Nadia Sun, socials chair
+- Kailash Ranganathan & Shaurya Jain, competitions chair
+- Smridhi Mahajan, outreach chair
+- Nico Rowland & Kaelani Adcock, projects chairs
+- Ro'aa Alkhawaja &	Yaamini Jois, equity and inclusion chairs
+- Drey Crockett & Keshav Deoskar, seminars chairs
+- Brandon Park & Kai Suwandi, media chairs
+- Josh Zhang & Kevin Hernandez, grillmasters
+- Adarsh Iyer, webmaster
+- Kenneth Ng & Thien Kim Le, senior advisors

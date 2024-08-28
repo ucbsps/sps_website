@@ -1,3 +1,0 @@
----
-title: "Equity & Inclusion:"
----

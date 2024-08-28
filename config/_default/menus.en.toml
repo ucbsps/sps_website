@@ -17,38 +17,45 @@ pageRef = "/events"
 weight = 3
 
 [[main]]
+name = "Sub"
+weight = 10
+
+[[main]]
+parent = "Sub"
 name = "Resources"
 pageRef = "/resources"
-weight = 4
+weight = 11
 
 [[main]]
-weight = 10
-name = "Committees"
-
-[[main]]
-parent = "Committees"
-name = "Outreach"
-pageRef = "/outreach"
-
-[[main]]
-parent = "Committees"
+parent = "Sub"
 name = "Snacks"
 pageRef = "/snacks"
+weight = 12
 
 [[main]]
-parent = "Committees"
-name = "E&I"
-pageRef = "/ei"
+parent = "Sub"
+name = "Outreach"
+pageRef = "/outreach"
+weight = 13
 
 [[main]]
-parent = "Committees"
+parent = "Sub"
 name = "Socials"
 pageRef = "/socials"
+weight = 14
 
 [[main]]
-parent = "Committees"
+parent = "Sub"
 name = "Projects"
 pageRef = "/projects"
+weight = 15
+
+
+[[main]]
+parent = "Sub"
+name = "Competitions"
+pageRef = "/competitions"
+weight = 16
 
 # [[main]]
 # weight = 4
