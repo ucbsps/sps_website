@@ -8,7 +8,7 @@ banner:
   button:
     enable: true
     label: "Upcoming events & opportunities"
-    link: "/events"
+    link: "events"
 
 # Features
 features:
