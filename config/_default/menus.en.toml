@@ -1,63 +1,97 @@
 ############# English navigation ##############
 
-# main menu
-[[main]]
-name = "Home"
-pageRef = "/"
-weight = 1
-
+# # main menu
+# [[main]]
+# name = "Home"
+# pageRef = "/"
+# weight = 1
+#
 [[main]]
 name = "About"
 pageRef = "/about"
 weight = 2
 
 [[main]]
-name = "Elements"
-pageRef = "/elements"
+name = "Events"
+pageRef = "/events"
 weight = 3
 
 [[main]]
+name = "Resources"
+pageRef = "/resources"
 weight = 4
-name = "Pages"
 
 [[main]]
-parent = "Pages"
-name = "Blog"
-pageRef = "/blog"
+weight = 10
+name = "Committees"
 
 [[main]]
-parent = "Pages"
-name = "Contact"
-pageRef = "/contact"
+parent = "Committees"
+name = "Outreach"
+pageRef = "/outreach"
 
 [[main]]
-parent = "Pages"
-name = "Authors"
-pageRef = "/authors"
+parent = "Committees"
+name = "Snacks"
+pageRef = "/snacks"
 
 [[main]]
-parent = "Pages"
-name = "Categories"
-pageRef = "/categories"
+parent = "Committees"
+name = "E&I"
+pageRef = "/ei"
 
 [[main]]
-parent = "Pages"
-name = "404 Page"
-pageRef = "/404"
+parent = "Committees"
+name = "Socials"
+pageRef = "/socials"
 
+[[main]]
+parent = "Committees"
+name = "Projects"
+pageRef = "/projects"
 
-# footer menu
-[[footer]]
-name = "About"
-pageRef = "/about"
-weight = 1
-
-[[footer]]
-name = "Elements"
-pageRef = "/elements"
-weight = 2
-
-[[footer]]
-name = "Privacy Policy"
-pageRef = "/privacy-policy"
-weight = 3
+# [[main]]
+# weight = 4
+# name = "Pages"
+#
+# [[main]]
+# parent = "Pages"
+# name = "Blog"
+# pageRef = "/blog"
+#
+# [[main]]
+# parent = "Pages"
+# name = "Contact"
+# pageRef = "/contact"
+#
+# [[main]]
+# parent = "Pages"
+# name = "Authors"
+# pageRef = "/authors"
+#
+# [[main]]
+# parent = "Pages"
+# name = "Categories"
+# pageRef = "/categories"
+#
+# [[main]]
+# parent = "Pages"
+# name = "404 Page"
+# pageRef = "/404"
+#
+#
+# # footer menu
+# [[footer]]
+# name = "About"
+# pageRef = "/about"
+# weight = 1
+#
+# [[footer]]
+# name = "Elements"
+# pageRef = "/elements"
+# weight = 2
+#
+# [[footer]]
+# name = "Privacy Policy"
+# pageRef = "/privacy-policy"
+# weight = 3
