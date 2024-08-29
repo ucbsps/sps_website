@@ -18,7 +18,7 @@ navbar_fixed = true
 theme_switcher = false
 theme_default = "light" # available options [light/dark/system]
 # Main Sections
-mainSections = ["blog"]
+mainSections = ["events"]
 # contact form action
 contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
@@ -46,7 +46,7 @@ link = "mail"
 [search]
 enable = false
 primary_color = "#121212"
-include_sections = ["blog"]
+include_sections = ["events"]
 show_image = true
 show_description = true
 show_tags = true
@@ -57,7 +57,7 @@ show_categories = true
 [announcement]
 enable = true
 expire_days = 7
-content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
+content = "This site is currently under construction. Thank you for your patience!"
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo

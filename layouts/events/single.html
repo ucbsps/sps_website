@@ -3,16 +3,11 @@
     <div class="container">
       <div class="row justify-center">
         <article class="lg:col-10">
-          {{ $image:= .Params.image }}
-          {{ if $image }}
-            <div class="mb-10">
-              {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded") }}
-            </div>
-          {{ end }}
           <h1 class="h2 mb-4">
             {{ .Title }}
           </h1>
           <ul class="mb-4">
+            {{ if false }}
             <li class="mr-4 inline-block">
               <a
                 href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
@@ -20,6 +15,7 @@
                 >{{ .Params.author }}
               </a>
             </li>
+            {{ end }}
             {{ $categories:= .Params.categories }}
             {{ if $categories }}
               <li class="mr-4 inline-block">
@@ -37,13 +33,23 @@
             {{ end }}
             <li class="mr-4 inline-block">
               <i class="fa-regular fa-clock mr-2"></i>
-              {{ time.Format ":date_long" .Date }}
+          {{ .Date | time.Format "Jan 02, 2006 3:04 PM PT" }}
             </li>
           </ul>
-          <div class="content mb-10">
-            {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }}
-            {{ .Content }}
+          {{ $image:= .Params.image }}
+          {{ if $image }}
+          <div class="row justify-center">
+            <div class="mb-10">
+              {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "h-quarter rounded") }}
+            </div>
           </div>
+          {{ end }}
+            <div class="content mb-10">
+            {{ if false }}
+                {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }}
+            {{ end }}
+              {{ .Content }}
+            </div>
           <div class="row items-start justify-between">
             {{ $tags:= .Params.tags }}
             {{ if $tags }}
@@ -62,12 +68,14 @@
                 </ul>
               </div>
             {{ end }}
+            {{ if false }}
             <div class="lg:col-4 flex items-center">
               {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" (T "share") "Whatsapp" false "Telegram" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false) }}
             </div>
+            {{ end }}
           </div>
           <!-- comments -->
-          {{ if site.Config.Services.Disqus.Shortname }}
+          {{ if and false site.Config.Services.Disqus.Shortname }}
             <div class="mt-20">
               {{ template "_internal/disqus.html" . }}
             </div>
