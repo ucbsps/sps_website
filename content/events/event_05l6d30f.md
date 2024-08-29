@@ -1,6 +1,6 @@
 ---
-modified: 2024-08-16 01:53:38+00:00
-date: 2024-08-29 22:00:00+00:00
+modified: 2024-08-15 18:53:38-07:00
+date: 2024-08-29 15:00:00-07:00
 title: "Undergrad Research Fair for Physics/Astronomy/EPS"
 location: "West Pauley Ballroom, 2495 Bancroft Way, Berkeley, CA 94720, USA"
 image: "/images/attach_1yppofw9.png"

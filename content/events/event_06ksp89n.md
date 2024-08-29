@@ -1,6 +1,6 @@
 ---
-modified: 2024-08-23 18:39:39+00:00
-date: 2024-09-17 18:00:00+00:00
+modified: 2024-08-23 11:39:39-07:00
+date: 2024-09-17 11:00:00-07:00
 title: "Faculty Lunch: Michael Zalatel"
 location: "unknown"
 publishdate: 2000-01-01

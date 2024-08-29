@@ -3,7 +3,7 @@
   {{ if $image }}
     {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded") }}
   {{ end }}
-  <div> {{ .Date | time.Format ":date_full" }} </div>
+  <div> {{ .Date | time.Format "Jan 02, 2006 3:04 PM PT" }} </div>
   <h4 class="mb-3">
     <a href="{{ .RelPermalink }}">
       {{ .Title }}

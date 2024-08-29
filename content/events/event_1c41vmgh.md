@@ -1,6 +1,6 @@
 ---
-modified: 2024-08-16 02:01:11+00:00
-date: 2024-08-27 16:30:00+00:00
+modified: 2024-08-15 19:01:11-07:00
+date: 2024-08-27 09:30:00-07:00
 title: "MPS Launch Day for incoming students"
 location: "unknown"
 image: "/images/attach_1wntfz1r.jpg"
