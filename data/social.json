@@ -1,6 +1,13 @@
 {
   "main": [
     {
+      "name": "instagram",
+      "icon": "fab fa-instagram",
+      "link": "https://www.instagram.com/sps_berkeley"
+    }
+  ],
+  "inactive": [
+    {
       "name": "facebook",
       "icon": "fab fa-facebook",
       "link": "https://www.facebook.com/"

@@ -87,7 +87,11 @@ weight = 16
 # pageRef = "/404"
 #
 #
-# # footer menu
+# footer menu
+# [[footer]]
+# name = "Contact Us"
+# pageRef = "/contact"
+# weight = 1
 # [[footer]]
 # name = "About"
 # pageRef = "/about"
