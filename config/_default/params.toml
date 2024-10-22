@@ -62,9 +62,9 @@ content = "This site is currently under construction. Thank you for your patienc
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
+keywords = ["UC Berkeley", "Physics", "Society of Physics Students", "SPS"]
+description = "UC Berkeley SPS Website"
+author = "SPS Webdev Officer Adarsh Iyer"
 image = "images/og-image.png"
 
 
