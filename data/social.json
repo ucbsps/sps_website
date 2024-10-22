@@ -4,6 +4,11 @@
       "name": "instagram",
       "icon": "fab fa-instagram",
       "link": "https://www.instagram.com/sps_berkeley"
+    },
+    {
+      "name": "discord",
+      "icon": "fab fa-discord",
+      "link": "https://discord.gg/37Be85xrRQ"
     }
   ],
   "inactive": [
