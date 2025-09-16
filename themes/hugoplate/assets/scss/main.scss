@@ -7,9 +7,9 @@
 }
 
 @layer components {
-  @import "components";
+  @import "components"; // Includes custom-button and btn-primary styles
   @import "navigation";
-  @import "buttons";
+  @import "buttons"; // Ensure this file contains button-related styles
 }
 
 @layer utilities {

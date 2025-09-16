@@ -1,13 +1,29 @@
 {{ define "main" }}
   {{ partial "page-header" . }}
 
-
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBPAnJLnb932B0B0_SZZJAEuwi9bor02tCUQ7Xcfset9W1Hg/viewform?embedded=true" width="640" height="382" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <div style="text-align:center;">
+          <a href="{{ .Params.mail_link }}"
+             style="
+               display: inline-block;
+               padding: 0.75em 1.5em;
+               background: #0072c6;
+               color: #fff;
+               border-radius: 8px;
+               text-decoration: none;
+               font-weight: 600;
+               box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+               transition: background 0.2s;
+             "
+             onmouseover="this.style.background='#005a9e';"
+             onmouseout="this.style.background='#0072c6';">
+            Open Mailing List Form
+          </a>
+        </div>
+        <br><br>
       </div>
     </div>
   </section>
-
 {{ end }}

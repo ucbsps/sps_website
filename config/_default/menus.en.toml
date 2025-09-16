@@ -1,108 +1,24 @@
-############# English navigation ##############
-
-# # main menu
-# [[main]]
-# name = "Home"
-# pageRef = "/"
-# weight = 1
-#
 [[main]]
 name = "About"
 pageRef = "/about"
-weight = 2
+weight = 1
 
 [[main]]
 name = "Events"
 pageRef = "/events"
+weight = 2
+
+[[main]]
+name = "Resources"
+pageRef = "/resources"
 weight = 3
 
 [[main]]
-name = "Sub"
-weight = 10
-
-[[main]]
-parent = "Sub"
-name = "Resources"
-pageRef = "/resources"
-weight = 11
-
-[[main]]
-parent = "Sub"
 name = "Snacks"
 pageRef = "/snacks"
-weight = 12
+weight = 4
 
 [[main]]
-parent = "Sub"
-name = "Outreach"
-pageRef = "/outreach"
-weight = 13
-
-[[main]]
-parent = "Sub"
-name = "Socials"
-pageRef = "/socials"
-weight = 14
-
-[[main]]
-parent = "Sub"
-name = "Projects"
-pageRef = "/projects"
-weight = 15
-
-
-[[main]]
-parent = "Sub"
-name = "Competitions"
-pageRef = "/competitions"
-weight = 16
-
-# [[main]]
-# weight = 4
-# name = "Pages"
-#
-# [[main]]
-# parent = "Pages"
-# name = "Blog"
-# pageRef = "/blog"
-#
-# [[main]]
-# parent = "Pages"
-# name = "Contact"
-# pageRef = "/contact"
-#
-# [[main]]
-# parent = "Pages"
-# name = "Authors"
-# pageRef = "/authors"
-#
-# [[main]]
-# parent = "Pages"
-# name = "Categories"
-# pageRef = "/categories"
-#
-# [[main]]
-# parent = "Pages"
-# name = "404 Page"
-# pageRef = "/404"
-#
-#
-# footer menu
-# [[footer]]
-# name = "Contact Us"
-# pageRef = "/contact"
-# weight = 1
-# [[footer]]
-# name = "About"
-# pageRef = "/about"
-# weight = 1
-#
-# [[footer]]
-# name = "Elements"
-# pageRef = "/elements"
-# weight = 2
-#
-# [[footer]]
-# name = "Privacy Policy"
-# pageRef = "/privacy-policy"
-# weight = 3
+name = "Committees"
+pageRef = "/committees"
+weight = 5

@@ -47,6 +47,67 @@ main {
   }
 }
 
+.carousel-section {
+  position: relative;
+  height: 100vh;
+}
+.carousel-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carousel-banner {
+  position: relative;
+  z-index: 10;
+  color: white;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5; /* Adjust transparency */
+  z-index: 5; /* Ensure it is above the carousel but below the text */
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: black; /* Default text color */
+  background-color: white; /* Default background color */
+  border: 2px solid black; /* Add black border */
+  border-radius: 0.375rem; /* Rounded corners */
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+  position: relative; /* Ensure positioning context */
+  z-index: 20; /* Ensure button stays above other elements */
+}
+
+.custom-button:hover {
+  color: white; /* Inverted text color */
+  background-color: black; /* Inverted background color */
+  border-color: white; /* Change border color on hover */
+}
+
 // content style
 .content {
   @apply prose max-w-none;

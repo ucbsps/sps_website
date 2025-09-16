@@ -1,0 +1,89 @@
+{{ define "main" }}
+  <section class="section pt-7">
+    <div class="container">
+      <div class="row justify-center">
+        <article class="lg:col-10">
+          <!-- Event Title -->
+          <h1 class="h2 mb-4">{{ .Title }}</h1>
+
+          <!-- Event Description -->
+          <p class="text-lg mb-4">{{ .Params.description }}</p>
+
+          <!-- Event Date (Optional) -->
+          {{ if gt .Date.Unix 0 }}
+            <ul class="mb-4">
+              <li class="mr-4 inline-block">
+                <i class="fa-regular fa-clock mr-2"></i>
+                {{ .Date | time.Format "Jan 02, 2006 3:04 PM PT" }}
+              </li>
+            </ul>
+          {{ end }}
+
+          <!-- Event Image (Optional) -->
+          {{ $image := .Params.image | default "" }}
+          {{ if $image }}
+            <div class="mb-10">
+              <img src="{{ $image }}" alt="{{ .Title }}" 
+                   class="rounded-md shadow-md mx-auto" 
+                   style="max-width: 80%; height: auto;">
+            </div>
+          {{ end }}
+
+          <!-- Event Content -->
+          <div class="content mb-10">
+            {{ .Content }}
+          </div>
+
+          <!-- Related Posts (Optional) -->
+          {{ $related := (where site.RegularPages "Section" "in" site.Params.mainSections) | intersect (where site.RegularPages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) }}
+          {{ $filteredRelated := where $related "Section" "!=" "committees" }}
+          {{ $filteredRelated = $filteredRelated | shuffle | first 3 }}
+          {{ if gt (len $filteredRelated) 0 }}
+            <div class="section pb-0">
+              <h2 class="h3 mb-12 text-center">Related Posts</h2>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto max-w-screen-xl">
+                {{ range $filteredRelated }}
+                  <div class="blog-card p-6 rounded-md shadow-md bg-white">
+                    <!-- Title Section -->
+                    <h3 class="text-lg font-semibold mb-2 text-center">{{ .Title }}</h3>
+                    <!-- Time Section -->
+                    {{ if .Date }}
+                      <p class="text-sm text-gray-600 mb-2 text-center">
+                        <i class="fa-regular fa-clock mr-2"></i>
+                        {{ .Date | time.Format "Jan 02, 2006 3:04 PM PT" }}
+                      </p>
+                    {{ else }}
+                      <p class="text-sm text-gray-600 mb-2 text-center">No date available</p>
+                    {{ end }}
+                    <!-- Read More Button -->
+                    <a href="{{ .Permalink }}" 
+                       style="
+                         display: inline-block;
+                         padding: 0.5rem 1rem;
+                         font-size: 1rem;
+                         font-weight: 500;
+                         color: black; /* Default text color */
+                         background-color: white; /* Default background color */
+                         border: 2px solid black; /* Border */
+                         border-radius: 0.375rem; /* Rounded corners */
+                         text-align: center;
+                         text-decoration: none;
+                         transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+                       "
+                       onmouseover="this.style.color='white'; this.style.backgroundColor='black'; this.style.borderColor='white';"
+                       onmouseout="this.style.color='black'; this.style.backgroundColor='white'; this.style.borderColor='black';">
+                      Read More
+                    </a>
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          {{ else }}
+            <!-- No related posts -->
+            <p class="text-center">No related posts available.</p>
+          {{ end }}
+        </article>
+      </div>
+    </div>
+  </section>
+{{ end }}

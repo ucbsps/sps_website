@@ -1,13 +1,13 @@
 #################### default parameters ################################
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
-favicon = "images/logo.jpg"
+favicon = "images/logo2.jpg"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
 logo = "images/logo.jpg"
 logo_darkmode = "images/logo-darkmode.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "120px"
-logo_height = "32px"
+logo_width = "250px"
+logo_height = "40px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
@@ -18,7 +18,7 @@ navbar_fixed = true
 theme_switcher = false
 theme_default = "light" # available options [light/dark/system]
 # Main Sections
-mainSections = ["events"]
+mainSections = ["events", "about", "resources", "committees", "snacks"]
 # contact form action
 contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
@@ -44,7 +44,7 @@ link = "mail"
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
-enable = false
+enable = true
 primary_color = "#121212"
 include_sections = ["events"]
 show_image = true
@@ -109,3 +109,4 @@ enable = false
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+

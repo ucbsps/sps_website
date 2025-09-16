@@ -16,7 +16,6 @@
   {{ end }}
 {{ end }}
 
-
 <!-- main script -->
 {{ $scripts = $scripts | append (resources.Get "js/main.js") }}
 {{ $scripts = $scripts | resources.Concat "js/script.js" }}
@@ -28,13 +27,16 @@
   {{ $scriptsLazy = $scriptsLazy | minify | fingerprint }}
 {{ end }}
 
-{{/* scripts */}}
+<!-- scripts -->
+{{ $js := resources.Get "js/main.js" | js.Build | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+
 <script
   crossorigin="anonymous"
   integrity="{{ $scripts.Data.Integrity }}"
   src="{{ $scripts.RelPermalink }}"></script>
 
-{{/* scripts lazy */}}
+<!-- scripts lazy -->
 <script
   defer
   async
@@ -42,17 +44,48 @@
   integrity="{{ $scriptsLazy.Data.Integrity }}"
   src="{{ $scriptsLazy.RelPermalink }}"></script>
 
+<!-- Swiper Initialization -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const swiper = new Swiper('.mySwiper', {
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  });
+</script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    autoplay: {
+      delay: 4000,
+    },
+    effect: 'fade',
+    speed: 1000,
+  });
+</script>
+
 <!-- progressive web app -->
 {{ partialCached "pwa.html" . }}
-
 
 <!-- cookie consent -->
 {{ partialCached "cookie-consent.html" . }}
 
-
 <!-- google adsense -->
 {{ partialCached "adsense-script.html" . }}
 
-
-<!-- cookie consent -->
+<!-- announcement -->
 {{ partialCached "announcement-script.html" . }}

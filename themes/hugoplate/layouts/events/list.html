@@ -1,0 +1,61 @@
+{{ define "main" }}
+  <!-- Section with Background Image -->
+  {{ $image := .Params.image | default "/images/default-background.jpg" }}
+  <section class="relative section-sm" style="background-image: url('{{ $image }}'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 300px;">
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+
+    <div class="container h-full flex items-center justify-center relative z-10">
+      <h1 class="text-4xl font-bold text-white p-6">
+        {{ .Title }}
+      </h1>
+    </div>
+  </section>
+
+  <!-- Main Content Section -->
+  <section class="section">
+    <div class="container">
+      <!-- Render Markdown content from _index.md (including your iframe) -->
+      <div class="mb-8">
+        {{ .Content }}
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {{ range .RegularPages }}
+          <div class="event-card p-4 rounded-md shadow-md bg-white">
+            <!-- Date Section -->
+            {{ if .Date }}
+              <p class="text-lg text-gray-600 mb-2">
+                {{ .Date | time.Format "Jan 02, 2006 3:04 PM" }}
+              </p>
+            {{ else }}
+              <p class="text-lg text-gray-600 mb-2">No date available</p>
+            {{ end }}
+            <!-- Title Section -->
+            <h2 class="text-2xl font-semibold mb-2 text-black" style="text-align: left;">
+              {{ .Title }}
+            </h2>
+            <!-- Read More Button -->
+            <a href="{{ .Permalink }}" 
+               style="
+                 display: inline-block;
+                 padding: 0.5rem 1rem;
+                 font-size: 1rem;
+                 font-weight: 500;
+                 color: black;
+                 background-color: white;
+                 border: 2px solid black;
+                 border-radius: 0.375rem;
+                 text-align: center;
+                 text-decoration: none;
+                 transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+               "
+               onmouseover="this.style.color='white'; this.style.backgroundColor='black'; this.style.borderColor='white';"
+               onmouseout="this.style.color='black'; this.style.backgroundColor='white'; this.style.borderColor='black';">
+              Read More
+            </a>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

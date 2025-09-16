@@ -1,0 +1,46 @@
+{{ $gallery := .Page.Params.gallery }}
+{{ $names := .Page.Params.names }}
+{{ $roles := .Page.Params.roles }}
+{{ if $gallery }}
+  <div style="width:100%; max-width:900px; margin:auto;">
+    {{ $total := len $gallery }}
+    {{ $cols := 4 }}
+    {{ $rows := div (add $total (sub $cols 1)) $cols }}
+    {{ range $row := seq 0 (sub $rows 1) }}
+      {{ $start := mul $row $cols }}
+      {{ $end := add $start $cols }}
+      {{ $remaining := sub $total $start }}
+      <div style="display:flex; gap:24px; justify-content:center; margin-bottom:2em;">
+        {{ if and (eq $row (sub $rows 1)) (lt $remaining $cols) }}
+          <!-- Last row: center the profiles -->
+          <div style="flex:1;"></div>
+          <div style="text-align:center; flex:1;">
+            <img src="{{ index $gallery $start }}" alt="Gallery Photo {{ add $start 1 }}"
+                 style="width:120px; height:120px; object-fit:cover; border-radius:8px;">
+            <div style="font-weight:bold; margin-top:0.5em;">{{ index $names $start }}</div>
+            <div style="color:gray; font-size:0.9em;">{{ index $roles $start }}</div>
+          </div>
+          <div style="text-align:center; flex:1;">
+            <img src="{{ index $gallery (add $start 1) }}" alt="Gallery Photo {{ add (add $start 1) 1 }}"
+                 style="width:120px; height:120px; object-fit:cover; border-radius:8px;">
+            <div style="font-weight:bold; margin-top:0.5em;">{{ index $names (add $start 1) }}</div>
+            <div style="color:gray; font-size:0.9em;">{{ index $roles (add $start 1) }}</div>
+          </div>
+          <div style="flex:1;"></div>
+        {{ else }}
+          <!-- Regular row: show up to 4 profiles -->
+          {{ range $i := seq $start (sub $end 1) }}
+            {{ if lt $i $total }}
+              <div style="text-align:center; flex:1;">
+                <img src="{{ index $gallery $i }}" alt="Gallery Photo {{ add $i 1 }}"
+                     style="width:120px; height:120px; object-fit:cover; border-radius:8px;">
+                <div style="font-weight:bold; margin-top:0.5em;">{{ index $names $i }}</div>
+                <div style="color:gray; font-size:0.9em;">{{ index $roles $i }}</div>
+              </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

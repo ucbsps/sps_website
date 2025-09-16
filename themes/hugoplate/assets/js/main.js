@@ -1,4 +1,28 @@
 // main script
+import Swiper from 'swiper/bundle';
+import 'swiper/css/bundle';
+
+document.addEventListener('DOMContentLoaded', () => {
+  const swiper = new Swiper('.mySwiper', {
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    effect: 'fade', // Optional: smooth fade effect between slides
+  });
+});
+
+
+
 (function () {
   "use strict";
 
