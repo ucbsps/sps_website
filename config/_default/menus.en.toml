@@ -1,24 +1,44 @@
 [[main]]
 name = "About"
-pageRef = "/about"
+url = "/about"
 weight = 1
 
 [[main]]
 name = "Events"
-pageRef = "/events"
+url = "/events"
 weight = 2
 
 [[main]]
 name = "Resources"
-pageRef = "/resources"
+url = "/resources"
 weight = 3
 
 [[main]]
 name = "Snacks"
-pageRef = "/snacks"
+url = "/snacks"
 weight = 4
 
 [[main]]
 name = "Committees"
-pageRef = "/committees"
+url = "/committees"
 weight = 5
+
+[[main]]
+name = "Competitions"
+parent = "Committees"
+url = "/committees/competitions"
+
+[[main]]
+name = "Outreach"
+parent = "Committees"
+url = "/committees/outreach"
+
+[[main]]
+name = "Projects"
+parent = "Committees"
+url = "/committees/projects"
+
+[[main]]
+name = "Socials"
+parent = "Committees"
+url = "/committees/socials"

@@ -64,7 +64,7 @@ content = "This site is currently under construction. Thank you for your patienc
 [metadata]
 keywords = ["UC Berkeley", "Physics", "Society of Physics Students", "SPS"]
 description = "UC Berkeley SPS Website"
-author = "SPS Webdev Officer Adarsh Iyer"
+author = "SPS Webdev"
 image = "images/og-image.png"
 
 

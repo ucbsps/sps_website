@@ -12,7 +12,7 @@
     <input id="nav-toggle" type="checkbox" class="hidden" />
     <label
       for="nav-toggle"
-      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      class="order-3 cursor-pointer flex items-center lg:hidden text-text-dark dark:text-white lg:order-1">
       <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
         <title>Menu Open</title>
         <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
@@ -36,30 +36,46 @@
         {{ $pageURL:= $currentPage.Permalink | absLangURL }}
         {{ $active := eq $menuURL $pageURL }}
         {{ if .HasChildren }}
-        <li class="nav-item"><div class="nav-link cursor-default">·</div></li>
-            {{ range .Children }}
-              {{ $childURL := .URL | absLangURL }}
-              {{ $active := eq $childURL $pageURL }}
-              <li class="nav-item">
-                <a
-                  class="nav-link {{ if $active }}
-                    active
-                  {{- end -}}"
-                  {{ if findRE `^http` .URL }}
-                    target="_blank" rel="noopener"
-                  {{ end }}
-                  href="{{- if findRE `^#` .URL -}}
-                    {{- if not $.IsHome -}}
-                      {{- site.Home.RelPermalink -}}
-                    {{- end }}
-                    {{- .URL -}}
-                  {{- else -}}
-                    {{- .URL | relLangURL -}}
-                  {{- end -}}">
-                  {{ .Name }}
-                </a>
-              </li>
-            {{ end }}
+          <li class="nav-item nav-dropdown group relative">
+            <span
+              class="nav-link {{ range .Children }}
+                {{ $childURL := .URL | absLangURL }}
+                {{ $active := eq $childURL $pageURL }}
+                {{ if $active }}active{{ end }}
+              {{ end }} inline-flex items-center">
+              {{ .Name }}
+              <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
+                <path
+                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+              </svg>
+            </span>
+            <ul
+              class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
+              {{ range .Children }}
+                {{ $childURL := .URL | absLangURL }}
+                {{ $active := eq $childURL $pageURL }}
+                <li class="nav-dropdown-item">
+                  <a
+                    class="nav-dropdown-link {{ if $active }}
+                      active
+                    {{- end -}}"
+                    {{ if findRE `^http` .URL }}
+                      target="_blank" rel="noopener"
+                    {{ end }}
+                    href="{{- if findRE `^#` .URL -}}
+                      {{- if not $.IsHome -}}
+                        {{- site.Home.RelPermalink -}}
+                      {{- end }}
+                      {{- .URL -}}
+                    {{- else -}}
+                      {{- .URL | relLangURL -}}
+                    {{- end -}}">
+                    {{ .Name }}
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </li>
         {{ else }}
           <li class="nav-item">
             <a
@@ -95,18 +111,19 @@
         {{ if .enable }}
           <button
             aria-label="search"
-            {{ if and (not site.Params.navigation_button.enable) (not site.Params.theme_switcher)}}
-            class="border-border text-dark hover:text-primary dark:border-darkmode-border mr-5 inline-block border-r lg:border-r-0 pr-5 lg:pr-0 text-xl dark:text-white dark:hover:text-darkmode-primary"
-            {{ else }}
-            class="border-border text-dark hover:text-primary dark:border-darkmode-border mr-5 inline-block border-r pr-5 text-xl dark:text-white dark:hover:text-darkmode-primary"
-            {{ end }}
+            class="border-border text-text-dark hover:text-primary
+            dark:border-darkmode-border mr-5 inline-block border-r pr-5
+            text-xl dark:text-white cursor-pointer dark:hover:text-darkmode-primary
+            {{ if not (or site.Params.navigation_button.enable site.Params.theme_switcher) }}
+              lg:border-r-0 lg:pr-0
+            {{ end }}"
             data-target="search-modal">
             <i class="fa-solid fa-search"></i>
           </button>
         {{ end }}
       {{ end }}
 
-      {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded") }}
+      {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1 dark:bg-darkmode-light rounded") }}
       {{ partial "components/theme-switcher" (dict "Class" "mr-5") }}
 
 
