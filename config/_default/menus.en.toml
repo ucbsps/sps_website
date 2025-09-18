@@ -42,3 +42,8 @@ url = "/committees/projects"
 name = "Socials"
 parent = "Committees"
 url = "/committees/socials"
+
+[[main]]
+name = "Seminars"
+parent = "Committees"
+url = "/committees/seminars"
