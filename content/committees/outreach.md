@@ -1,10 +1,13 @@
 ---
 title: "Outreach"
 image: "/images/outreach.jpg"
+gallery: ["/images/gallery/officers/Shivani.jpg", "/images/gallery/officers/Yael.jpg", "/images/gallery/officers/Hugo.png"]
+names: ["Shivani", "Yael", "Hugo"]
+roles: ["Sophomore", "Sophomore", "Sophomore"]
+research_interests: ["Astrophysics", "Particle Physics", "Biophysics"]
+calendly_links: ["https://calendly.com/shivani_kulkarni-berkeley/30min", "https://calendly.com/yael-zayats-berkeley/30min", "https://calendly.com/hugo-bale-berkeley/30min"]
 
 ---
-
-### Bringing People into Physics
 
 We do all things related to public science communication! Our goal is to get people of a variety of age groups excited about physics and show them what a future in it could look like.
 Some of our main involvements include science lessons in elementary schools, tabling for on campus events, and hosting panels/tours for high school physics students.
@@ -15,7 +18,12 @@ Reach out to yael.zayats@berkeley.edu and shivani_kulkarni@berkeley.edu with any
 
 Are you interested in learning more about the undergrad physics experience at Cal? Select a time slot below to schedule a meeting with an SPS outreach member! We will meet at the SPS room in Physics North and can talk about courses, research, and even give a tour of the building!
 
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/hugo-bale-berkeley/30min" style="min-width:250px;height:600px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->
+DISCLAIMER: WE ARE NOT AFFILIATED WITH UC BERKELEY ADMISSIONS!
+
+{{< tour_cards >}}
+
+### Get Involved 
+
+<div style="width: 100%; overflow: auto;">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGYhkWVXgS6quBgTF2hsATjWd5SzGS1of5RK2jyWps9A1nUg/viewform?usp=header" style="width: 100%; height: 500px; border: 0;" frameborder="0"></iframe>
+</div>

@@ -1,0 +1,106 @@
+{{ $gallery := .Page.Params.gallery }}
+{{ $names := .Page.Params.names }}
+{{ $roles := .Page.Params.roles }}
+{{ $research_interests := .Page.Params.research_interests }}
+{{ $calendly_links := .Page.Params.calendly_links }}
+
+{{ if $gallery }}
+  <style>
+    .blog-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      height: 100%;
+    }
+    
+    .blog-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    .blog-card-image {
+      width: 100%;
+      height: auto;
+      max-height: 180px;
+      object-fit: cover;
+      object-position: center;
+    }
+    
+    .blog-card-content {
+      padding: 15px;
+    }
+    
+    .blog-card-name {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #333;
+    }
+    
+    .blog-card-role {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+    
+    .blog-card-interests {
+      color: #777;
+      font-size: 0.85rem;
+      line-height: 1.4;
+    }
+    
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    @media (max-width: 768px) {
+      .cards-container {
+        grid-template-columns: 1fr;
+        padding: 10px;
+      }
+    }
+  </style>
+  
+  <div class="cards-container">
+    {{ range $i, $photo := $gallery }}
+      {{ $name := index $names $i }}
+      {{ $role := index $roles $i }}
+      {{ $interests := index $research_interests $i }}
+      {{ $calendly := index $calendly_links $i }}
+      
+      {{ $imageUrl := "" }}
+      {{ $imagePath := strings.TrimPrefix "/" $photo }}
+      {{ $resource := resources.Get $imagePath }}
+      {{ if $resource }}
+        {{ $imageUrl = $resource.RelPermalink }}
+      {{ else }}
+        {{ $imageUrl = $photo | relURL }}
+      {{ end }}
+      
+      <a href="{{ $calendly }}" class="blog-card" target="_blank" rel="noopener noreferrer">
+        <img src="{{ $imageUrl }}" 
+             alt="{{ $name }}" 
+             class="blog-card-image">
+        <div class="blog-card-content">
+          <div class="blog-card-name">{{ $name }}</div>
+          <div class="blog-card-role">{{ $role }}</div>
+          <div class="blog-card-interests">{{ $interests }}</div>
+        </div>
+      </a>
+    {{ end }}
+  </div>
+{{ end }}
