@@ -7,7 +7,7 @@ potw_drive_id: 1p20C56KruOou8hql8IikEJFS-zLahFnO
 Interested in testing your math and physics skills? Meeting other budding scientists eager to learn? Join competitions to improve your quick thinking skills and hopefully win a few integration bees! Feel free to reach out to Everett Anderson [everett_anderson@berkeley](mailto:everett_anderson@berkeley) and Ty Brennan ([tyabrennan@berkeley](mailto:tyabrennan@berkeley.edu)) with questions.
 
 ### Berkeley Physics Tournament
-
+#### [Berkeley Physics Tournament Website](https://berkeley-pt.org/)
 
 <iframe src="/pdfs/BPT_China_Rules_and_Syllabus.pdf" width="100%" height="700px"></iframe>
 
