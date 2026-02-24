@@ -2,76 +2,91 @@
 title: "About"
 image: "/images/about_background.jpg"
 gallery: 
-- "/images/gallery/officers/Sanjit.jpg"
-- "/images/gallery/officers/Rainer.jpeg"
-- "/images/gallery/officers/AyushGopal.jpg"
-- "/images/gallery/officers/Smridhi.JPG"
-- "/images/gallery/officers/Jason.jpeg"
-- "/images/gallery/officers/Xing.jpeg"
-- "/images/gallery/officers/Shivani.jpg"
-- "/images/gallery/officers/Yael.jpg"
-- "/images/gallery/officers/Nadia.jpeg"
-- "/images/gallery/officers/Ty.JPG"
-- "/images/gallery/officers/Everett.jpeg"
-- "/images/gallery/officers/Meghna.JPG"
-- "/images/gallery/officers/AyushGuha.png"
-- "/images/gallery/officers/Abby.jpeg"
-- "/images/gallery/officers/Keshav.jpg"
-- "/images/gallery/officers/Drey.JPG"
-- "/images/gallery/officers/Meghan.JPG"
-- "/images/gallery/officers/Kaelani.jpeg"
-- "/images/gallery/officers/Josh.jpg"
-- "/images/gallery/officers/Kevin.png"
-- "/images/gallery/officers/Hugo.png"
-- "/images/gallery/officers/Sean.png"
+- "/images/gallery/officers/AGopal.jpg"
+- "/images/gallery/officers/AGuha.jpg"
+- "/images/gallery/officers/AJZhou.jpeg"
+- "/images/gallery/officers/ASchleigh.jpeg"
+- "/images/gallery/officers/BSimberg.jpeg"
+- "/images/gallery/officers/CJFigueroa.jpeg"
+- "/images/gallery/officers/EDAnderson.jpeg"
+- "/images/gallery/officers/FChou.jpeg"
+- "/images/gallery/officers/HOBale.jpeg"
+- "/images/gallery/officers/JKHuskey.jpeg"
+- "/images/gallery/officers/JZhang.jpg"
+- "/images/gallery/officers/KDeoskar.jpg"
+- "/images/gallery/officers/KHernandez.png"
+- "/images/gallery/officers/KLAdcock.jpeg"
+- "/images/gallery/officers/MKe.jpeg"
+- "/images/gallery/officers/NSun.jpeg"
+- "/images/gallery/officers/RKReczek.jpeg"
+- "/images/gallery/officers/SGoel.jpg"
+- "/images/gallery/officers/SKulkarni.jpg"
+- "/images/gallery/officers/SMahajan.JPG"
+- "/images/gallery/officers/SSShirol.jpeg"
+- "/images/gallery/officers/SXu.jpeg"
+- "/images/gallery/officers/TBrennan.JPEG"
+- "/images/gallery/officers/XLiu.jpeg"
+- "/images/gallery/officers/YShi.jpg"
+- "/images/gallery/officers/YZayats.jpg"
+- "/images/gallery/officers/ZMonschein.jpeg"
 
 names:
-- Sanjit Shirol
-- Rainer Reczek
 - Ayush Gopal
-- Smridhi Mahajan
-- Jason Huskey
-- Xing Liu
-- Shivani Kulkarni
-- Yael Zayats
-- Nadia Sun
-- Ty Brennan
-- Everett Anderson
-- Meghna Subramanium
 - Ayush Guha
+- Abby Zhou
 - Abby Schleigh
-- Keshav Deoskar
-- Drey Crockett
-- Meghan Ke
-- Kaleani Adcock
-- Josh Zhang
-- Kevin Hernandez
+- Benji Simberg
+- Christian Figueroa
+- Everett Anderson
+- Forrest Chou
 - Hugo Bale
+- Jason Huskey
+- Josh Zhang
+- Keshav Deoskar
+- Kevin Hernandez
+- Kaelani Adcock
+- Meghan Ke
+- Nadia Sun
+- Rainer Reczek
+- Shrey Goel
+- Shivani Kulkarni
+- Smridhi Mahajan
+- Sanjit Shirol
 - Sean Xu
+- Ty Brennan
+- Xing Liu
+- Yuhong Shi
+- Yael Zayats
+- Zoe Monschein
 
 roles:
-- President
-- President
 - Vice President
-- Vice President
+- Projects Chair
+- Seminar Chair
+- E&I Chair
+- Social Chair
+- Seminar Chair
+- Competitions Chair
+- Webmaster
+- Projects Chair 
 - Secretary
+- Grillmaster
+- Senior advisor
+- Outreach Chair
+- Media Chair
+- Media Chair
+- Senior advisor
+- President
+- Grillmaster
+- Outreach Chair
+- Vice President
+- President
+- Webmaster
+- Competitions Chair
+- Senior advisor
 - Treasurer
 - Outreach Chair
-- Outreach Chair
-- Socials Chair
-- Competitions Chair
-- Competitions Chair
-- Projects Chair
-- Projects Chair
-- Equity & Inclusion Chair
-- Seminars Chair
-- Seminars Chair
-- Media Chair
-- Media Chair
-- Grillmasters
-- Grillmasters
-- Webmasters
-- Webmasters
+- E&I Chair
 ---
 
 ### What We Do

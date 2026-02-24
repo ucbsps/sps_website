@@ -9,7 +9,7 @@ Interested in testing your math and physics skills? Meeting other budding scient
 ### Berkeley Physics Tournament
 #### [Berkeley Physics Tournament Website](https://berkeley-pt.org/)
 
-<iframe src="/pdfs/BPT_China_Rules_and_Syllabus.pdf" width="100%" height="700px"></iframe>
+<!-- <iframe src="/pdfs/BPT_China_Rules_and_Syllabus.pdf" width="100%" height="700px"></iframe> -->
 
 
 ### Problem of the Week

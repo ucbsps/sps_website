@@ -1,7 +1,7 @@
 ---
 title: "Outreach"
 image: "/images/outreach.jpg"
-gallery: ["/images/gallery/officers/Shivani.jpg", "/images/gallery/officers/Yael.jpg", "/images/gallery/officers/Hugo.png"]
+gallery: ["/images/gallery/officers/SKulkarni.jpg", "/images/gallery/officers/YZayats.jpg", "/images/gallery/officers/HOBale.jpeg"]
 names: ["Shivani", "Yael", "Hugo"]
 roles: ["Sophomore", "Sophomore", "Sophomore"]
 research_interests: ["Astrophysics", "Particle Physics", "Biophysics"]
@@ -25,5 +25,5 @@ DISCLAIMER: WE ARE NOT AFFILIATED WITH UC BERKELEY ADMISSIONS!
 ### Get Involved 
 
 <div style="width: 100%; overflow: auto;">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGYhkWVXgS6quBgTF2hsATjWd5SzGS1of5RK2jyWps9A1nUg/viewform?usp=header" style="width: 100%; height: 500px; border: 0;" frameborder="0"></iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGYhkWVXgS6quBgTF2hsATjWd5SzGS1of5RK2jyWps9A1nUg/viewform" style="width: 100%; height: 500px; border: 0;" frameborder="0"></iframe>
 </div>
