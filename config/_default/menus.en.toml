@@ -29,6 +29,11 @@ parent = "Committees"
 url = "/committees/competitions"
 
 [[main]]
+name = "Media"
+parent = "Committees"
+url = "/committees/media"
+
+[[main]]
 name = "Outreach"
 parent = "Committees"
 url = "/committees/outreach"

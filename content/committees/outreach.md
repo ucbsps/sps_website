@@ -2,10 +2,10 @@
 title: "Outreach"
 image: "/images/outreach.jpg"
 gallery: ["/images/gallery/officers/SKulkarni.jpg", "/images/gallery/officers/YZayats.jpg", "/images/gallery/officers/HOBale.jpeg"]
-names: ["Shivani", "Yael", "Hugo"]
-roles: ["Sophomore", "Sophomore", "Sophomore"]
-research_interests: ["Astrophysics", "Particle Physics", "Biophysics"]
-calendly_links: ["https://calendly.com/shivani_kulkarni-berkeley/30min", "https://calendly.com/yael-zayats-berkeley/30min", "https://calendly.com/hugo-bale-berkeley/30min"]
+names: ["Shivani", "Yael", "Kevin"]
+roles: ["Sophomore", "Sophomore", "Senior"]
+research_interests: ["Astrophysics", "Particle Physics", "Physics"]
+calendly_links: ["https://calendly.com/shivani_kulkarni-berkeley/30min", "https://calendly.com/yael-zayats-berkeley/30min", "https://sps.studentorg.berkeley.edu/asdf"]
 
 ---
 
