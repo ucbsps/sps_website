@@ -4,7 +4,7 @@
 {{ if $gallery }}
   <div style="width:100%; max-width:900px; margin:auto;">
     {{ $total := len $gallery }}
-    {{ $cols := 4 }}
+    {{ $cols := 5 }}
     {{ $rows := div (add $total (sub $cols 1)) $cols }}
     {{ range $row := seq 0 (sub $rows 1) }}
       {{ $start := mul $row $cols }}
@@ -28,7 +28,7 @@
           </div>
           <div style="flex:1;"></div>
         {{ else }}
-          <!-- Regular row: show up to 4 profiles -->
+          <!-- Regular row: show up to 5 profiles -->
           {{ range $i := seq $start (sub $end 1) }}
             {{ if lt $i $total }}
               <div style="text-align:center; flex:1;">
