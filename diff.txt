@@ -1,0 +1,1 @@
+Comparing files hugo.toml and HUGO_BACKUP.TOML
