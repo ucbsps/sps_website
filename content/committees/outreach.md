@@ -1,17 +1,16 @@
 ---
 title: "Outreach"
 image: "/images/outreach.jpg"
-gallery: ["/images/gallery/officers/SKulkarni.jpg", "/images/gallery/officers/YZayats.jpg", "/images/gallery/officers/HOBale.jpeg"]
+gallery: ["/images/gallery/officers/SKulkarni.jpg", "/images/gallery/officers/YZayats.jpg", "/images/gallery/officers/KHernandez.png"]
 names: ["Shivani", "Yael", "Kevin"]
 roles: ["Sophomore", "Sophomore", "Senior"]
 research_interests: ["Astrophysics", "Particle Physics", "Physics"]
-calendly_links: ["https://calendly.com/shivani_kulkarni-berkeley/30min", "https://calendly.com/yael-zayats-berkeley/30min", "https://sps.studentorg.berkeley.edu/asdf"]
 
 ---
 
 We do all things related to public science communication! Our goal is to get people of a variety of age groups excited about physics and show them what a future in it could look like.
 Some of our main involvements include science lessons in elementary schools, tabling for on campus events, and hosting panels/tours for high school physics students.
-If giving back to the community while having fun with friends sounds interesting to you, come and join us! Meetings for the outreach committee are 3-4pm every other Monday in the SPS room. Everyone is welcome.
+If giving back to the community while having fun with friends sounds interesting to you, come and join us! Meetings for the outreach committee are 6pm every other Tuesday in the SPS room. Everyone is welcome.
 Reach out to yael.zayats@berkeley.edu and shivani_kulkarni@berkeley.edu with any questions.
 
 ### Schedule a Visit
