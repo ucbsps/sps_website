@@ -29,11 +29,6 @@ parent = "Committees"
 url = "/committees/competitions"
 
 [[main]]
-name = "Media"
-parent = "Committees"
-url = "/committees/media"
-
-[[main]]
 name = "Outreach"
 parent = "Committees"
 url = "/committees/outreach"
@@ -43,12 +38,8 @@ name = "Projects"
 parent = "Committees"
 url = "/committees/projects"
 
-[[main]]
-name = "Socials"
-parent = "Committees"
-url = "/committees/socials"
 
 [[main]]
-name = "Seminars"
+name = "Events"
 parent = "Committees"
-url = "/committees/seminars"
+url = "/committees/events"

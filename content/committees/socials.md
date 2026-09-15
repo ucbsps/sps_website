@@ -1,6 +1,7 @@
 ---
 title: "Socials"
 image: "/images/socials.jpg"
+draft: true
 ---
 
 The Socials Committee of the Society of Physics Students (SPS) is dedicated to building a strong, vibrant community by organizing social events and activities that foster camaraderie and collaboration among students. Our goal is to create fun, inclusive opportunities for members to connect outside the classroom, share their passion for physics, and engage in meaningful discussions.

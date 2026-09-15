@@ -1,6 +1,7 @@
 ---
 title: "Seminars"
 image: "/images/seminars.jpg"
+draft: true
 ---
 
 Seminars hosts weekly undergraduate seminars and biweekly faculty student lunches! These events are great resources for students to figure out what fields in physics excite them and how to get involved. If you're interested in helping to organize these events, picking up food for seminars, or just want to learn more, please fill out the interest form! Also feel free to contact Drey Crockett ([crocketta@berkeley.edu](mailto:crocketta@berkeley.edu)) and Keshav Deoskar ([kdeoskar@berkeley.edu](mailto:kdeoskar@berkeley.edu)) with questions! 

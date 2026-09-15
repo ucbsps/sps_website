@@ -1,6 +1,7 @@
 ---
 title: "Media"
 image: "/images/socials.jpg"
+draft: true
 ---
 
 The SPS Media Committee aims to expand the social media presence of SPS. We wish to grow and showcase the undergraduate physics community at Berkeley. If you are passionate and motivated in photography, videography, and/or design we would love to work with you. We meet every other Wednesday 12-1p in the SPS office (184 Physics).
