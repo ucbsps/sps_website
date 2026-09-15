@@ -3,6 +3,8 @@ title: "Events"
 image: "/images/socials.jpg"
 ---
 
+Apply for to be part of the Events committee for Fall 2026!
+
 ### Get Involved
 
 <div style="width: 100%; overflow: auto;">
