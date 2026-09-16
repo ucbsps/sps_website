@@ -3,7 +3,7 @@ title: "Events"
 image: "/images/socials.jpg"
 ---
 
-Apply for to be part of the Events committee for Fall 2026!
+Help on-campus SPS events run smoothly and join our committee! This includes seminars, socials, faculty lunches, and new event ideas you bring! Message Jason (jhuskey@berkeley.edu) for more info.
 
 ### Get Involved
 
