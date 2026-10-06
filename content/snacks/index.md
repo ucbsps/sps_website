@@ -59,3 +59,5 @@ Stop by the SPS office in Physics 184 to come pick up snacks, drinks, and more. 
 - Red Bull $4.00
 - Kombucha $4.00
 - Yerba Matte $4.00
+
+Updated 10/05/26
