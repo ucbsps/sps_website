@@ -5,11 +5,11 @@ image: /images/resources_background.jpg
 
 ### Advising
 
-[Faculty Office Hours](https://docs.google.com/spreadsheets/d/1SkOoen0Tgv1cga-QCEC4uG62-6IIDAamJKWmsdVsthI/edit?gid=0#gid=0) - Physics faculty advising office hours are a worthwhile opportunity to ask physics faculty members any questions you might have about their physics journey, research, grad school, and general advice. Please note that these office hours are organized by our physics advisors, and the faculty hosting these office hours changes each semester.
+[Faculty Office Hours](https://docs.google.com/document/d/1-i3OrKe8j4lHAA7LHguqPcHy4Pv8tcffIGdYMTN-h5A/edit?tab=t.0) - Physics faculty advising office hours are a worthwhile opportunity to ask physics faculty members any questions you might have about their physics journey, research, grad school, and general advice. Please note that these office hours are organized by our physics advisors, and the faculty hosting these office hours changes each semester.
 
-[Counselor Office Hours](https://physics.berkeley.edu/student-life/student-support-advising) - Appointments with advisors Kathleen Cooney and Nitin Srivastava can be scheduled [here](https://kathleencooney.youcanbook.me/?jumpDate=2025-06-10&i=itt_1b18436c-6be8-4e86-8e95-d072e341e70b) and [here](https://nitinatberkeley.youcanbook.me/?jumpDate=2025-06-10&i=itt_f5bb5d99-ab3b-4b64-96f6-28c6ab754ea7) respectively. If you are a new student, it is highly recommended to ask the Physics Undergraduate Major Advisors to add you to the Physics Intended Major Email List and the Physics Central Ed Discussion. Our physics advisors are here for you, so don't hesitate to reach out. In-person office hours are subject to change, but you can always stop by 374 and 375 Physics North to see if anyone is available. </p>
+[Counselor Office Hours](https://docs.google.com/spreadsheets/d/1d6rTgK53dclFnP72jRQwRtRqsOYd6UHdRPsuLeYcvX0/edit?usp=sharing) - Appointments with advisors Kathleen Cooney and Nitin Srivastava can be scheduled [here](https://kathleencooney.youcanbook.me/?jumpDate=2025-06-10&i=itt_1b18436c-6be8-4e86-8e95-d072e341e70b) and [here](https://nitinatberkeley.youcanbook.me/?jumpDate=2025-06-10&i=itt_f5bb5d99-ab3b-4b64-96f6-28c6ab754ea7) respectively. If you are a new student, it is highly recommended to ask the Physics Undergraduate Major Advisors to add you to the Physics Intended Major Email List and the Physics Central Ed Discussion. Our physics advisors are here for you, so don't hesitate to reach out. In-person office hours are subject to change, but you can always stop by 374 and 375 Physics North to see if anyone is available. </p>
 
-[SPS Office Hours](https://docs.google.com/spreadsheets/d/1eabZSc7b2j0ro8Hkmvir0MhnFYm9Rt6nnp9G9dqpO9M/edit?gid=0#gid=0) - Come say hi! We are eager to talk about physics courses, applying for research, and anything else. Being a physics student can be challenging, but many of us have been in your position and can offer advice from a student's perspective. Regardless, you're always welcome to stop by for the snacks.
+[SPS Office Hours](https://docs.google.com/spreadsheets/d/1mcpYNcytGIFcdNc-QF1xtrh18Ou8PA-s_GowDIvSoAo/edit?gid=0#gid=0) - Come say hi! We are eager to talk about physics courses, applying for research, and anything else. Being a physics student can be challenging, but many of us have been in your position and can offer advice from a student's perspective. Regardless, you're always welcome to stop by for the snacks.
 
 ### Mentorship
 
@@ -62,14 +62,6 @@ Past Physics Notes - SPS has worked with physics students at Berkeley to collect
   </a>
 </div>
 
-### DeCal: Introduction to Problem Solving in Physics
-
-- Physics 98 (1 unit)
-- Class #: [22513](https://classes.berkeley.edu/content/2025-spring-physics-98-001-grp-001)
-- Time: Tuesday & Thursday, 05:00 pm - 05:59 pm
-- Location: Etcheverry 3119
-
-Physics 98: Introduction to Problem Solving in Physics is a 1 unit P/NP student-run class where you can learn problem solving methods and mathematical tools for first semester physics. It’s a great opportunity to build your physics intuition, strengthen your problem solving toolset, and find your community in physics. First semester physics can be the most challenging course in the whole degree, but it’s also a great chance to build intuition for concepts that come back again and again, and we’re here to support you along the way! It’s 5:00 - 6:00 pm in Etcheverry 3119, and you can enroll through the enrollment center. We hope you’ll join us for an exciting journey in mechanics!
 
 ### For Victims of Sexual Violence
 

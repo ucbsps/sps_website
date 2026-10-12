@@ -92,3 +92,17 @@ We host a variety of events to help bring the physics community at Berkeley clos
 ### Officers
 
 {{< gallery >}}
+
+
+<div class="mt-12 p-8 bg-gray-100 dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 rounded-xl text-center shadow-md">
+  <h3 class="mb-2 text-2xl font-bold text-gray-900 dark:text-white">📱 Connect With Us</h3>
+  <p class="mb-6 text-gray-700 dark:text-gray-300">Stay updated with our latest events, socials, and announcements on Instagram!</p>
+  <a href="https://www.instagram.com/sps_berkeley/" target="_blank" rel="noopener noreferrer" class="inline-block px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold rounded-lg shadow-md hover:shadow-lg transition-transform hover:-translate-y-1">
+    Follow @sps_berkeley
+  </a>
+</div>
+
+<!-- If you want a specific post, wrap its embed code in this centering div right here -->
+<div style="display: flex; justify-content: center; margin-top: 3rem; margin-bottom: 3rem; width: 100%;">
+  <!-- PASTE INSTAGRAM POST EMBED CODE HERE -->
+</div>

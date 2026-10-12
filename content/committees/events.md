@@ -1,10 +1,16 @@
 ---
 title: "Events"
 image: "/images/socials.jpg"
+gallery: ["/images/gallery/officers/JHuskey"]
+names: ["Jason"]
+roles: ["Sophomore"]
+research_interests: ["Physics"]
 ---
 
 Help on-campus SPS events run smoothly and join our committee! This includes seminars, socials, faculty lunches, and new event ideas you bring! Message Jason (jhuskey@berkeley.edu) for more info.
 
+
+{{< tour_cards >}}
 ### Get Involved
 
 <div style="width: 100%; overflow: auto;">
