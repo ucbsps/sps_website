@@ -1,7 +1,7 @@
 ---
 title: "Events"
 image: "/images/socials.jpg"
-gallery: ["/images/gallery/officers/JHuskey"]
+gallery: ["/images/gallery/officers/JKHuskey"]
 names: ["Jason"]
 roles: ["Sophomore"]
 research_interests: ["Physics"]
