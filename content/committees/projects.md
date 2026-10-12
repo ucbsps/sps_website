@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 image: "/images/projects.jpg"
-gallery: ["/images/gallery/officers/AGuha.png", "/images/gallery/officers/HBale.jpeg", "/images/gallery/officers/SKulkarni.jpeg"]
+gallery: ["/images/gallery/officers/AGuha.png", "/images/gallery/officers/HOBale.jpeg", "/images/gallery/officers/SKulkarni.jpeg"]
 names: ["Ayush", "Hugo", "Shivani"]
 roles: ["Junior", "Junior", "Junior"]
 research_interests: ["Physics", "Physics", "Physics"]
