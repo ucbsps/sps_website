@@ -2,13 +2,11 @@
 title: "Competitions"
 image: "/images/competitions.png"
 potw_drive_id: 1p20C56KruOou8hql8IikEJFS-zLahFnO
-gallery: ["/images/gallery/officers/FChou.png", "/images/gallery/officers/EAnderson.jpeg"]
+gallery: ["/images/gallery/officers/FChou.jpg", "/images/gallery/officers/EAnderson.jpeg"]
 names: ["Forest", "Everett"]
 roles: ["Sophomore", "Junior"]
 research_interests: ["Physics", "Physics"]
 ---
-{{< tour_cards >}}
-
 Interested in testing your math and physics skills? Meeting other budding scientists eager to learn? Join competitions to improve your quick thinking skills and hopefully win a few integration bees! Feel free to reach out to Everett Anderson [everett_anderson@berkeley](mailto:everett_anderson@berkeley) and Forrest Chou ([forrestchou@berkeley](mailto:forrestchou@berkeley.edu)) with questions. We meet 5-6p Tuesdays in the SPS office (184 Physics).
 
 {{< tour_cards >}}
