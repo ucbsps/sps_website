@@ -21,7 +21,7 @@ gallery:
 - "/images/gallery/officers/DSabetnejad.png"
 - "/images/gallery/officers/CJFigueroa.jpg"
 - "/images/gallery/officers/AJZhou.jpeg"
-- "/images/gallery/officers/MKe.jpeg"
+- "/images/gallery/officers/MKee.jpeg"
 - "/images/gallery/officers/ELo.jpg"
 - "/images/gallery/officers/SGoel.png"
 - "/images/gallery/officers/EWang.png"
