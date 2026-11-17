@@ -3,7 +3,7 @@ title: "Events"
 image: "/images/socials.jpg"
 gallery: ["/images/gallery/officers/JKHuskey"]
 names: ["Jason"]
-roles: ["Sophomore"]
+roles: ["Senior"]
 research_interests: ["Physics"]
 ---
 

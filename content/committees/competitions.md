@@ -3,7 +3,7 @@ title: "Competitions"
 image: "/images/competitions.png"
 potw_drive_id: 1p20C56KruOou8hql8IikEJFS-zLahFnO
 gallery: ["/images/gallery/officers/FChou.jpg", "/images/gallery/officers/EAnderson.jpeg"]
-names: ["Forest", "Everett"]
+names: ["Forrest", "Everett"]
 roles: ["Sophomore", "Junior"]
 research_interests: ["Physics", "Physics"]
 ---
